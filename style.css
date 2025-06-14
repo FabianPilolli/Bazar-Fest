@@ -17,10 +17,9 @@ img {
 .responsive-iframe-container {
     position: relative;
     padding-bottom: 56.25%; /* Relación de aspecto 16:9 (altura / ancho = 9 / 16 = 0.5625) */
-    height: 0;
-    overflow: hidden;
+    height: 50vh;
     max-width: 100%;
-    background: #000; /* Puedes quitar esto si no lo necesitas */
+    overflow: hidden;
 }
 
 .responsive-iframe-container iframe {
