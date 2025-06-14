@@ -22,7 +22,7 @@ footer img {
 
 .responsive-iframe-container {
     position: relative;
-    padding-bottom: 56.25%; /* Relación de aspecto 16:9 (altura / ancho = 9 / 16 = 0.5625) */
+    margin-bottom: 20px;
     height: 50vh;
     max-width: 100%;
     overflow: hidden;
