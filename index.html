@@ -1,1 +1,22 @@
-<iframe src="https://brackethq.com/b/967pc/embed/?name=1" width="100%" height="550" frameborder="0"></iframe>
+<div class="responsive-iframe-container">
+  <iframe src="https://brackethq.com/b/967pc/embed/?name=1" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<style>
+  .responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Relación de aspecto 16:9 (altura / ancho = 9 / 16 = 0.5625) */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000; /* Puedes quitar esto si no lo necesitas */
+  }
+
+  .responsive-iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
