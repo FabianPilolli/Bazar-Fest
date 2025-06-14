@@ -1,7 +1,17 @@
 body { background-color: #1e1f24; }
 
 header {
-    display: inline;
+    display: inline-flex;
+    width: 100vw;
+    height: 10vh;
+    align-items: center;
+    align-content: center;
+}
+
+img {
+    max-height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .responsive-iframe-container {
