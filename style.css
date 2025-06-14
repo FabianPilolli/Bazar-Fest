@@ -8,8 +8,14 @@ header {
     align-content: center;
 }
 
-img {
+header img {
     max-height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer img {
+    max-width: 30vw;
     margin-left: 5px;
     margin-right: 5px;
 }
